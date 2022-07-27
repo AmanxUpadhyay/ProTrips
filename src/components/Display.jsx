@@ -62,9 +62,9 @@ export default class Display extends Component {
                 </table>
                 <div className="filter">
                     Filter by:
-                    <span onClick={this.typeAll}>All</span><span className="symbol">&#9898;</span>
-                    <span onClick={this.typeTrek}>Treks</span><span className="symbol">&#9898;</span>
-                    <span onClick={this.typeClub}>Clubs</span><span className="symbol">&#9898;</span>
+                    <span onClick={this.typeAll}>All</span>
+                    <span onClick={this.typeTrek}>Treks</span>
+                    <span onClick={this.typeClub}>Clubs</span>
                     <span onClick={this.typeTropic}>Tropics</span>
                 </div>
             </>
